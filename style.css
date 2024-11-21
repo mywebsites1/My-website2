@@ -9,6 +9,7 @@ nav{
     padding: 5px 200px;
     background-color: rgb(4, 4, 82);
     color: white;
+    border-bottom: 4px solid #401E63;
 }
 nav ul{
     display: flex;
@@ -30,4 +31,38 @@ nav ul li a:hover{
     background-color: black;
     color: red;
    
+}
+/* hero area code start heare  */
+header{
+    background-image: url(image/website\ banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.input-icon-parent{
+    display: flex;
+    justify-content: center;
+}
+.input-icon-parent i{
+    font-size: 30px;
+    color: red;
+    background-color: green;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+.input-icon-parent input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px;
+
 }
