@@ -126,3 +126,34 @@ border-radius: 20px;
     margin-top: 10px;
     color: gray;
 }
+/* next previous code start  */
+.next-previous-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.next-previous-parent a{
+    text-decoration: none;
+    color: white;
+}
+.next-previous-parent h3 a{
+    background-color: #05ae76;
+    padding: 10px 25px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.next-previous-parent h3 a:hover{
+    background-color: #028559;
+}
+.next-previous-parent div a{
+    margin: 0px 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #868383;
+}
+.next-previous-parent div a:first-child{
+    background-color:#05ae76 ;
+    color: white;
+}
