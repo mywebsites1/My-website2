@@ -10,6 +10,8 @@ nav{
     background-color: rgb(4, 4, 82);
     color: white;
     border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
